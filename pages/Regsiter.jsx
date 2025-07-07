@@ -11,8 +11,8 @@ const Register = () => {
   const {backend,setIsloggedin,getUserData} = useContext(AppContent);
     const [state, setState] = useState("sign");
   const [name,setName] = useState('');
-  const [email,setEmail]=useState('');
-  const [password,setPassword] = useState('');
+  const [email,setemail]=useState('');
+  const [password,setpassword] = useState('');
    const handle = async (e) => {
    
 try{
